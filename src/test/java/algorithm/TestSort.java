@@ -1,5 +1,8 @@
 package algorithm;
 
+import algorithm.sort.DirectInsertionSort;
+import algorithm.sort.ProxySort;
+import algorithm.sort.Sort;
 import org.junit.Test;
 import util.GetArray;
 

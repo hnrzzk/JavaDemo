@@ -15,10 +15,10 @@ public abstract class Sort implements Algorithm {
     }
 
     public void run() {
-        sort(array);
+        sort();
     }
 
-    abstract void sort(int[] array);
+    abstract void sort();
 
     /**
      * 将数组中的x与y交换
