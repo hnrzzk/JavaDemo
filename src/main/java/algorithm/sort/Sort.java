@@ -1,11 +1,24 @@
 package algorithm.sort;
 
+import algorithm.Algorithm;
+
 /**
  * 排序算法demo的基类 模板方法
  * Created by zhangkai on 16-10-29.
  */
-public abstract class Sort {
-    public abstract void sort(int[] array);
+public abstract class Sort implements Algorithm{
+
+    int[] array;
+
+    public void setArray(int[] array) {
+        this.array = array;
+    }
+
+    public void run(){
+        sort();
+    }
+
+    abstract void sort();
 
     /**
      * 将数组中的x与y交换

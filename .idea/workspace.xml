@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef85042c-da74-44a9-baa5-6b11569bbf02" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/algorithm/sort/BubbleSort.class" afterPath="$PROJECT_DIR$/target/classes/algorithm/sort/BubbleSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/algorithm/sort/Sort.class" afterPath="$PROJECT_DIR$/target/classes/algorithm/sort/Sort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/algorithm/sort/TestBubbleSort.class" afterPath="$PROJECT_DIR$/target/test-classes/algorithm/sort/TestBubbleSort.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/sort/BubbleSort.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BubbleSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/sort/Sort.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/Sort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/algorithm/sort/TestBubbleSort.java" afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/TestBubbleSort.java" />
@@ -37,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -914,7 +910,7 @@
       <workItem from="1477800328970" duration="988000" />
       <workItem from="1477832912699" duration="6087000" />
       <workItem from="1477919993084" duration="692000" />
-      <workItem from="1477927812471" duration="277000" />
+      <workItem from="1477927812471" duration="656000" />
     </task>
     <servers />
   </component>
@@ -942,7 +938,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8167000" />
+    <option name="totallyTimeSpent" value="8546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="993" extended-state="6" />
@@ -1329,7 +1325,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>

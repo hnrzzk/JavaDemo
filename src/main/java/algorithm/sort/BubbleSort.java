@@ -6,7 +6,7 @@ package algorithm.sort;
  */
 public class BubbleSort extends Sort {
 
-    public void sort(int[] array) {
+    void sort() {
         int length = array.length;
         for (int i = 0; i < length; i++) {
             for (int j = length - 1; j > i; j--) {
