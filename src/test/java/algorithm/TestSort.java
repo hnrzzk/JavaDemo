@@ -2,6 +2,7 @@ package algorithm;
 
 import algorithm.sort.DirectInsertionSort;
 import algorithm.sort.ProxySort;
+import algorithm.sort.SimpleSelectionSort;
 import algorithm.sort.Sort;
 import org.junit.Test;
 import util.GetArray;
@@ -20,9 +21,9 @@ public class TestSort {
         run(sortTest);
     }
 
-    Sort getSortClass(int arrayLength){
+    Sort getSortClass(int arrayLength) {
         int[] array = GetArray.getIntArray(true, arrayLength);
-        Sort sortTest = new DirectInsertionSort();
+        Sort sortTest = new SimpleSelectionSort();
         sortTest.setArray(array);
         return sortTest;
     }
