@@ -3,6 +3,7 @@ package algorithm.sort;
 import util.PrintData;
 
 /**
+ * 排序算法打代理
  * Created by zhangkai on 16-10-31.
  */
 public class ProxySort extends Sort {

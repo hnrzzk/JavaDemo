@@ -1,11 +1,12 @@
 package algorithm;
 
 /**
+ * 算法类的代理
  * Created by zhangkai on 16-10-31.
  */
 public class ProxyAlgorithm implements Algorithm {
 
-    Algorithm algorithm;
+    private Algorithm algorithm;
 
     public ProxyAlgorithm(Algorithm algorithm) {
         this.algorithm = algorithm;

@@ -1,9 +1,6 @@
 package algorithm;
 
-import algorithm.sort.DirectInsertionSort;
-import algorithm.sort.ProxySort;
-import algorithm.sort.SimpleSelectionSort;
-import algorithm.sort.Sort;
+import algorithm.sort.*;
 import org.junit.Test;
 import util.GetArray;
 
@@ -15,15 +12,14 @@ public class TestSort {
 
     @Test
     public void test() {
-
-        Sort sortTest = getSortClass(10);
+        Sort sortTest = getSortClass(10000);
 
         run(sortTest);
     }
 
     Sort getSortClass(int arrayLength) {
         int[] array = GetArray.getIntArray(true, arrayLength);
-        Sort sortTest = new SimpleSelectionSort();
+        Sort sortTest = new ShellSort();
         sortTest.setArray(array);
         return sortTest;
     }
