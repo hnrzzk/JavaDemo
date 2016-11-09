@@ -12,14 +12,14 @@ public class TestSort {
 
     @Test
     public void test() {
-        Sort sortTest = getSortClass(10000);
+        Sort sortTest = getSortClass(10);
 
         run(sortTest);
     }
 
     Sort getSortClass(int arrayLength) {
         int[] array = GetArray.getIntArray(true, arrayLength);
-        Sort sortTest = new ShellSort();
+        Sort sortTest = new QuickSort();
         sortTest.setArray(array);
         return sortTest;
     }
