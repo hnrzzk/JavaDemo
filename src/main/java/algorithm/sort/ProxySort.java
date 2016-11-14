@@ -17,9 +17,12 @@ public class ProxySort extends Sort {
     void sort() {
         String before = String.format("Before sort:\n %s", PrintData.arrayToString(sort.array));
         System.out.println(before);
+        long starTime=System.currentTimeMillis();
         sort.sort();
+        long endTime=System.currentTimeMillis();
         String after = String.format("After sort:\n %s", PrintData.arrayToString(sort.array));
         System.out.println(after);
+        System.out.println(String.format("运行时间：%s ms",endTime-starTime));
     }
 
 

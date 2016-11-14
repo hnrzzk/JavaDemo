@@ -12,14 +12,14 @@ public class TestSort {
 
     @Test
     public void test() {
-        Sort sortTest = getSortClass(10);
+        Sort sortTest = getSortClass(10000);
 
         run(sortTest);
     }
 
     Sort getSortClass(int arrayLength) {
-        int[] array = {1 ,7 ,1 ,6 ,9 ,3 ,6 ,8 ,7 ,1 };//GetArray.getIntArray(true, arrayLength);
-        Sort sortTest = new HeapSort();
+        int[] array = GetArray.getIntArray(true, arrayLength);
+        Sort sortTest = new MergeSort();
         sortTest.setArray(array);
         return sortTest;
     }
@@ -27,8 +27,6 @@ public class TestSort {
     void run(Sort sort) {
         ProxySort proxySort = new ProxySort(sort);
 
-        ProxyAlgorithm proxyAlgorithm = new ProxyAlgorithm(proxySort);
-
-        proxyAlgorithm.run();
+        proxySort.run();
     }
 }
