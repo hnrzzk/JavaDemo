@@ -18,8 +18,8 @@ public class TestSort {
     }
 
     Sort getSortClass(int arrayLength) {
-        int[] array = GetArray.getIntArray(true, arrayLength);
-        Sort sortTest = new QuickSort();
+        int[] array = {1 ,7 ,1 ,6 ,9 ,3 ,6 ,8 ,7 ,1 };//GetArray.getIntArray(true, arrayLength);
+        Sort sortTest = new HeapSort();
         sortTest.setArray(array);
         return sortTest;
     }
