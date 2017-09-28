@@ -1,7 +1,4 @@
-package util;
-
-import java.util.Map;
-import java.util.Random;
+package priv.util;
 
 /**
  * Created by zhangkai on 16-10-30.

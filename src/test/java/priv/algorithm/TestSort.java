@@ -1,8 +1,10 @@
-package algorithm;
+package priv.algorithm;
 
-import algorithm.sort.*;
+import priv.algorithm.sort.MergeSort;
+import priv.algorithm.sort.ProxySort;
+import priv.algorithm.sort.Sort;
 import org.junit.Test;
-import util.GetArray;
+import priv.util.GetArray;
 
 /**
  * 冒泡排序单元测试

@@ -1,4 +1,4 @@
-package util;
+package priv.util;
 
 /**
  * 获取数组

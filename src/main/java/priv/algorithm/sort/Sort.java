@@ -1,6 +1,6 @@
-package algorithm.sort;
+package priv.algorithm.sort;
 
-import algorithm.Algorithm;
+import priv.algorithm.Algorithm;
 
 /**
  * 排序算法demo的基类 模板方法

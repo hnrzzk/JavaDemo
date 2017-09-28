@@ -1,4 +1,4 @@
-package algorithm.sort;
+package priv.algorithm.sort;
 
 /**
  * 希尔排序

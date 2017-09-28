@@ -1,4 +1,4 @@
-package algorithm;
+package priv.algorithm;
 
 /**
  * 算法类的接口

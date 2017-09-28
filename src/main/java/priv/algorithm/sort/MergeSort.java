@@ -1,4 +1,4 @@
-package algorithm.sort;
+package priv.algorithm.sort;
 
 /**
  * Created by zk on 16-11-14.
