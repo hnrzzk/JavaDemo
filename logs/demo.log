@@ -1,0 +1,15 @@
+2018-06-12 20:43:14,795 - priv.frame.net.mina.MinaTimeServer -1    [main] ERROR priv.frame.net.mina.MinaTimeServer  - IoAcceptor bind address error:
+java.lang.Exception: test
+	at priv.frame.net.mina.MinaTimeServer.main(MinaTimeServer.java:22)
+2018-06-12 20:43:32,973 - priv.frame.net.mina.MinaTimeServer -1    [main] ERROR priv.frame.net.mina.MinaTimeServer  - IoAcceptor bind address error:
+java.lang.Exception: test
+	at priv.frame.net.mina.MinaTimeServer.main(MinaTimeServer.java:22)
+2018-06-12 20:44:57  [ main:1 ] - [ ERROR ]  IoAcceptor bind address error:
+java.lang.Exception: test
+	at priv.frame.net.mina.MinaTimeServer.main(MinaTimeServer.java:22)
+2018-06-12 20:47:39  [ main:1 ] - [ ERROR ]  IoAcceptor bind address error:
+java.lang.Exception: test
+	at priv.frame.net.mina.MinaTimeServer.main(MinaTimeServer.java:20)
+2018-06-12 20:50:15  [ main:1 ] - [ ERROR ]  IoAcceptor bind address error:
+java.lang.Exception: test
+	at priv.frame.net.mina.MinaTimeServer.main(MinaTimeServer.java:20)

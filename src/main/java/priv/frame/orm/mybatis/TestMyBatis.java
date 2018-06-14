@@ -26,7 +26,7 @@ public class TestMyBatis {
 
         String statement = "priv.frame.orm.mybatis.userMapper.getUser";
 
-        User user = session.selectOne(statement, 1);
+        User user = session.selectOne(statement, 2);
         System.out.println(user);
     }
 
@@ -36,7 +36,7 @@ public class TestMyBatis {
 
         try {
             Reader reader = Resources.getResourceAsReader(resource);
-            
+
             SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(reader);
             SqlSession session = sessionFactory.openSession();
 
