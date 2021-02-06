@@ -1,6 +1,6 @@
 package priv.algorithm.sort;
 
-import priv.util.PrintData;
+import priv.print.PrintData;
 
 /**
  * 排序算法打代理

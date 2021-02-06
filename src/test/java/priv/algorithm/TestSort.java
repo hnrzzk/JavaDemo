@@ -1,10 +1,10 @@
 package priv.algorithm;
 
-import priv.algorithm.sort.MergeSort;
+import priv.algorithm.sort.HeapSort;
 import priv.algorithm.sort.ProxySort;
 import priv.algorithm.sort.Sort;
 import org.junit.Test;
-import priv.util.GetArray;
+import priv.collection.GetArray;
 
 /**
  * 冒泡排序单元测试
@@ -14,14 +14,14 @@ public class TestSort {
 
     @Test
     public void test() {
-        Sort sortTest = getSortClass(10000);
+        Sort sortTest = getSortClass(10);
 
         run(sortTest);
     }
 
     Sort getSortClass(int arrayLength) {
         int[] array = GetArray.getIntArray(true, arrayLength);
-        Sort sortTest = new MergeSort();
+        Sort sortTest = new HeapSort();
         sortTest.setArray(array);
         return sortTest;
     }

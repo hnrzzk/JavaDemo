@@ -1,4 +1,4 @@
-package priv.util;
+package priv.print;
 
 /**
  * 将数据输出到控制台

@@ -1,4 +1,6 @@
-package priv.util;
+package priv.collection;
+
+import priv.math.GetRandom;
 
 /**
  * 获取数组
@@ -15,7 +17,7 @@ public class GetArray {
         int[] array=new int[length];
         if (random){
             for (int i=0;i<length;i++){
-                array[i]=GetRandom.getInt(1,length);
+                array[i]= GetRandom.getInt(1,length);
             }
         }else {
             for (int i=0;i<length;i++){

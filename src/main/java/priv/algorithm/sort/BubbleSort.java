@@ -5,7 +5,6 @@ package priv.algorithm.sort;
  * Created by zhangkai on 16-10-29.
  */
 public class BubbleSort extends Sort {
-
     void sort() {
         int length = array.length;
         for (int i = 0; i < length; i++) {
@@ -16,6 +15,4 @@ public class BubbleSort extends Sort {
             }
         }
     }
-
-
 }

@@ -1,4 +1,4 @@
-package priv.util;
+package priv.math;
 
 /**
  * Created by zhangkai on 16-10-30.
